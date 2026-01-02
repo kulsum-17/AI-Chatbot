@@ -6,6 +6,7 @@ import os
 load_dotenv()
 st.title("Academic Mentor")
 
+
 st.write(
     "You can chat about your academics and also predict your marks "
     
