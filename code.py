@@ -59,7 +59,7 @@ if section == "Marks Predictor":
 elif section == "AI Chatbot":
     st.header("💬 AI Chatbot for Academic Mentoring")
     
-    client = Groq(api_key=os.getenv('GROQ_API_KEY'))
+    client = Groq(api_key=st.secrets['GROQ_API_KEY'])
 
     user_input = st.text_area(
         "Ask any academic-related question"
